@@ -1,0 +1,31 @@
+{
+  "name": "pi-exit",
+  "version": "0.1.0",
+  "description": "Adds an /exit command to Pi for orderly shutdown.",
+  "type": "module",
+  "files": [
+    "exit.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredeerock/pi-exit.git"
+  },
+  "homepage": "https://github.com/fredeerock/pi-exit#readme",
+  "bugs": {
+    "url": "https://github.com/fredeerock/pi-exit/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./exit.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
